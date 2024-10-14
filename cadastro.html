@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+    </style>
+  </head>
+  <body>
+
+    <section class="headerSection">
+      <article class="searchSection headerPart">
+        <input type="text" id="searchBar" />
+      </article>
+      <article class="navBar searchPart">
+        <a class="navOptions">Categoria</a>
+        <a class="navOptions">Oferta do dia</a>
+        <a class="navOptions">Historico</a>
+        <a class="navOptions">Moda</a>
+        <a href="cadastrar.html" class="navOptions">Cadastrar</a>
+      </article>
+    </section>
+    
+    <form>
+      <div class="HeaderForm">
+        <section class="FormItem">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" />
+        </section>
+
+        <section class="FormItem">
+          <label for="email">Email:</label>
+          <input type="text" id="email" />
+        </section>
+
+        <section class="FormItem">
+          <label for="password">Senha: </label>
+          <input type="password" id="password" />
+        </section class="FormItem">
+
+        <section class="FormItem">
+          <label for="passwordAgain">Repetir senha: </label>
+          <input type="password" id="passwordAgain" />
+        </section>
+
+        <section class="FormItem">
+          <label for="sexo">Genero: </label>
+          <select name="sexo" id="sexo">
+            <option value=""></option>
+            <option value="Man">Masculino</option>
+            <option value="Woman">Feminino</option>
+          </select>
+        </section>
+
+        <section class="FormItem"> 
+            <button type="submit">Enviar: </button>
+        </section>
+
+      </div>
+    </form>
+
+  </body>
+</html>
