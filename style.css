@@ -1,107 +1,137 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-*:before, *:after {
-    box-sizing: inherit;
-  }
-
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-
-  ol, ul {
-    list-style: none;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.headerSection{
-    background-color: yellow;
-    height: 14vh;
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.headerSection {
+  background-color: yellow;
+  height: 14vh;
 }
 
 .headerPart {
-    height: 7vh;
-    text-align: center;
+  height: 7vh;
+  text-align: center;
 }
 
 #searchBar {
-    height: 2.5vh;
-    margin-top: 2vh;
+  height: 2.5vh;
+  margin-top: 2vh;
 }
 
 .navBar {
-    border-style: solid;
-    line-height: 6vh;
+  border-style: solid;
+  line-height: 6vh;
 }
 
 .navOptions {
-    vertical-align: middle;
-    margin-left: 2vw;
+  vertical-align: middle;
+  margin-left: 2vw;
 }
 
 .navOptions:hover {
-    padding: 0.5%;
-    transition-duration: 0.5s;
-    background-color: gray  ;
+  padding: 0.5%;
+  transition-duration: 0.5s;
+  background-color: gray;
 }
 
 .content {
-    background-color: #ebebeb;
-    height: 86vh;
-    text-align: center;
+  background-color: #ebebeb;
+  height: 86vh;
+  text-align: center;
 }
 
 .benefits {
-    height: 15vh;
-    background-color: white;
-    border-radius: 1vw;
+  height: 15vh;
+  background-color: white;
+  border-radius: 1vw;
 }
 
-.offer, .firstOffer {
-    height: 15vh;
-    width: 20vw;
-    float: left;
-    text-align: left;
+.offer,
+.firstOffer {
+  height: 15vh;
+  width: 20vw;
+  float: left;
+  text-align: left;
 }
 
 .firstOffer {
-    border-right: solid rgb(146, 144, 144) 0.3vh;
+  border-right: solid rgb(146, 144, 144) 0.3vh;
 }
 
 .offerTitle {
-    margin-top: 3.5vh;
+  margin-top: 3.5vh;
 }
 
-.offerTitle, .subTitle {
-    margin-left: 1vw;
+.offerTitle,
+.subTitle {
+  margin-left: 1vw;
 }
 
 .contents {
-    width: 80vw;
-    margin-top: 5vh;
-    display: inline-block;
+  width: 80vw;
+  margin-top: 5vh;
+  display: inline-block;
 }
 
 .marketItem {
-    background-color: white;
-    height: 224px;
-    width: 15vw;
-    float: left;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    overflow: hidden;
+  background-color: white;
+  height: 224px;
+  width: 15vw;
+  float: left;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  border-radius: 0.5vw;
+  overflow: hidden;
+}
+
+.marketItem img {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1vh;
+  padding-bottom: 15px;
+  text-align: centers;
 }
 
 .marketItem:hover {
-    transition-duration: 0.5s;
-    height: 330px;
-    transition-timing-function: ease-in;
+  transition-duration: 0.5s;
+  height: 330px;
+  transition-timing-function: ease-in;
+}
+
+.oldPrice {
+  color: rgb(112, 112, 112);
+  text-decoration: line-through;
+}
+
+.currentPrice {
+  color: rgb(0, 0, 0);
 }
